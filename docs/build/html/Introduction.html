@@ -1,0 +1,286 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>1. Introduction &mdash; Hello  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Software Requirements Specification for OMG Version 0.1" href="index.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Hello
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#purpose">1.1. Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#overview">1.2. Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#user-characteristics">1.3. User characteristics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#terminology-glossary">1.4. Terminology&amp;Glossary</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#terminology">1.4.1. Terminology</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#glossary">1.4.2. Glossary</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Hello</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>1. Introduction</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/Introduction.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="introduction">
+<h1>1. Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>This document describes the Little Hill Lab’s initial requirements for an online
+application (Oh My Genes) which allows our scientists to upload gene expression files
+and quickly get differentially expressed genes.</div></blockquote>
+<div class="section" id="purpose">
+<h2>1.1. Purpose<a class="headerlink" href="#purpose" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>To identify differentially expressed genes given a gene expression file containing
+two cell samples.</div></blockquote>
+</div>
+<div class="section" id="overview">
+<h2>1.2. Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>The web application has a simple interface with a single button [Upload and GO]. Our
+scientists upload a plain text file containing gene expression levels from two
+samples, representing two experimental conditions. Accepting the file, the software
+will return a table of differentially expressed genes and a scatter plot of these
+genes whose X-axis is control and Y-axis is treatment. If an invalid gene expression
+is given, the web application returns a page informing the user to provide the
+correct format.</div></blockquote>
+</div>
+<div class="section" id="user-characteristics">
+<h2>1.3. User characteristics<a class="headerlink" href="#user-characteristics" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><strong>clients:</strong> Biologists who are using the web to get result of gene expression.</li>
+<li><strong>maintainers:</strong> Biologists who have the knowledge of pythod and github.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="terminology-glossary">
+<h2>1.4. Terminology&amp;Glossary<a class="headerlink" href="#terminology-glossary" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="terminology">
+<h3>1.4.1. Terminology<a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><em>Control sample</em> - a cell sample prepared in its normal condition.</li>
+<li><em>Treatment sample</em> - a cell sample treated by special chemicals, or in which some genes</li>
+</ul>
+<p>are altered.
+Differentially expressed genes - the genes which have significantly different
+expression levels between two samples.
+*       <em>Up-regulation</em> - a gene is said to be up-regulated if it has higher expression in
+treatment than in control.</p>
+</div></blockquote>
+</div>
+<div class="section" id="glossary">
+<h3>1.4.2. Glossary<a class="headerlink" href="#glossary" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><em>logFC</em> - log fold change of gene expression. log_2 [T/C], where T is the gene</li>
+</ul>
+<p>expression level from a treatment sample, while C is the gene expression level from a
+control sample.</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Software Requirements Specification for OMG Version 0.1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Cloud.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          
+          SphinxRtdTheme.Navigation.enableSticky();
+          
+      });
+  </script> 
+
+</body>
+</html>
